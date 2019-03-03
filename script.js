@@ -437,7 +437,7 @@ const questions = [
   },
   {
     categorie: 'gamer',
-    texte: 'Comment de litres de gras avez-vous sur les cheveux ?',
+    texte: 'Combien de litres de gras avez-vous sur les cheveux ?',
     choix: {'Aucun je suis propre': -1, 'Entre 0,1L et 1L': 2, 'Plus de 1L': 4}
   },
   {
