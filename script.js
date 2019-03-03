@@ -464,7 +464,7 @@ const questions = [
   {
     categorie: 'chrétien',
     texte: 'Avez-vous répondu honnêtement aux questions ?',
-    choix: {'Oui seigneur': 1, "J'avoue. Je n'ai pas répondu sérieusement aux questions proposées seigneur. Mais comprenez-moi,<br>je suis dans une situation compliquée en ce moment. J'ai une famille à nourrir, mais mon<br>patron m'a viré de mon job. Je fais de mon mieux et je jongle entre cachets et dépression. <br>Pardonnez-moi.": -2}
+    choix: {'Oui seigneur': 1, "J'avoue. Je n'ai pas répondu sérieusement aux questions proposées seigneur. Mais comprenez-moi,<br>je suis dans une situation compliquée en ce moment. J'ai une famille à nourrir, <br>mais mon patron m'a viré de mon job. Je fais de mon mieux et je jongle entre cachets et dépression. Pardonnez-moi.": -2}
   }
 ];
 
