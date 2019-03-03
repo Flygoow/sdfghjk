@@ -329,11 +329,6 @@ const questions = [
     choix: {'Oui': -1, "Oui, le jeu vidéo n'attend pas !! CASQUE:ON CLAVIER:ON, je suis prêt !": 2, 'Non': 0}
   },
   {
-    categorie: 'zizisexuel',
-    texte: 'Avez-vous déjà acheté quelque chose dans un sex-shop ?',
-    choix: {'oui': -1, 'Non': 0}
-  },
-  {
     categorie: 'gamer',
     texte: 'Avez-vous un tiroir à pisse ?',
     choix: {'oui': 2, 'Non': -2}
