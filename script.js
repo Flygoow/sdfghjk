@@ -362,7 +362,7 @@ const questions = [
   },
   {
     categorie: 'zizisexuel',
-    texte: "Est-ce que cette image vous excite ?<br><img src=images/donkey.png width=200>",
+    texte: "Est-ce que cette image vous excite ?<br><img src=images/donkey.png width=150>",
     choix: {'Oui': -1, 'Non': 0}
   },
   {
@@ -452,7 +452,7 @@ const questions = [
   },
   {
     categorie: 'gamer',
-    texte: 'Combien avez-vous de Jahcoins ?<br><img src=images/jahcoin.png width=100>',
+    texte: 'Combien avez-vous de Jahcoins ?<br><img src=images/jahcoin.png width=50>',
     choix: {'+50': 8, 'Entre 49 et 30': 4, 'Entre 29 et 10':2,'Entre 10 et 1':1, "Aucun":-2}
   },
   {
