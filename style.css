@@ -1,0 +1,416 @@
+header
+{
+    animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both!important;
+    animation: .25s fade;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+body, html
+{
+    max-width: 100%;
+    height: 100%;
+}
+
+h1
+{
+    text-align: center;
+    font: 65px 'Circular Std Bold';
+    line-height: 80px;
+}
+
+
+h1 a
+{
+    color: #000;
+    text-decoration: none;
+}
+
+ul
+{
+    text-align: center;
+    padding: 0;
+}
+
+li
+{
+    border-radius: 2px;
+    text-align: center;
+    font: 15px 'Circular Std Book';
+    list-style-type: none;
+    padding: 4px;
+    text-transform: uppercase;
+    width: 110px;
+    border-radius: 9px;
+    margin: 3px;
+    opacity: .9;
+    text-shadow: 0 0 4px #fff;
+}
+
+li b
+{
+    background: rgba(100, 100, 100, .4);
+    width: 100%;
+    color: #fff;
+    text-shadow: 0 0 4px #000;
+    border-radius: 7px;
+}
+
+footer, table
+{
+    text-align:center;
+    font: 12px sans-serif;
+    margin-top: 380px;
+    opacity:0;
+}
+
+nav b
+{
+    padding: 3px 0;
+    font: 14px sans-serif;
+    text-shadow: 0 0 3px #000;
+    width: 6.25%;
+}
+
+nav b, li
+{
+    display: inline-block;
+}
+
+nav
+{
+    display: none!important;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+li b, nav
+{
+    display: block;
+}
+
+.k
+{
+    color: #000;
+    text-shadow: 0 0 3px #fff;
+    font-size: 18px;
+}
+
+a
+{
+    color: #249;
+}
+
+.luigi
+{
+    transition:0.75s;
+    background: #ccf!important;;
+}
+
+.mario
+{
+    transition:0.75s;
+    background: #ddf!important;;
+}
+
+.cool
+{
+    transition:5s;
+    background: #eef!important;;
+}
+
+.normal
+{
+    transition:0.75s;
+    background: #efe!important;;
+}
+
+.immoral
+{
+    transition:0.75s;
+    background: #efc!important;
+}
+
+.impur
+{
+    transition:0.75s;
+    background: #ef8!important;
+}
+
+.indecent
+{
+    transition:0.75s;
+    background: #ef6!important;
+}
+
+.malsain
+{
+    transition:0.75s;
+    background: #ef4!important;
+}
+
+.ignoble
+{
+    transition:0.75s;
+    background: #ef2!important;
+}
+
+.vicieux
+{
+    transition:0.75s;
+    background: #ee0!important;
+}
+
+.infame
+{
+    transition:0.75s;
+    background: #e1b600!important;
+}
+
+.deprave
+{
+    transition:0.75s;
+    background: #cc4800!important;
+}
+
+.dangereux
+{
+    transition:0.75s;
+    background: #cc0000!important;
+}
+
+.nordiste
+{
+    transition:0.75s;
+    background: #b42727!important;
+}
+
+.demon
+{
+    transition:0.75s;
+    background: #870000!important;
+}
+
+.jdg
+{
+    transition:0.75s;
+    background: #690000!important;
+}
+
+.alien
+{
+    transition:2s;
+    background-image: url(https://i.imgur.com/0XFoePY.png)!important;
+    background-size: 30px;
+}
+
+#vbucks, li:hover, button
+{
+    font-weight: 700;
+    opacity: 1;
+}
+
+body, html
+{
+    height: 100%;
+}
+
+body
+{
+    animation: .50s fade;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 630px;
+    padding: 1px 20px;
+    margin: auto;
+    margin-top: 25px;
+
+}
+
+button
+{
+    text-align: center;
+    border-radius: 19px;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 5px 9px;
+    border: 1px #666 solid;
+    display: block;
+    border-radius: 3px;
+}
+
+p, button
+{
+    text-align: center;
+    font: 19px 'Circular Std Book';
+}
+
+button:hover
+{
+    animation: jello-horizontal 0.2s both;
+    background-color: rgb(255, 189, 1, 0);
+}
+
+button, li
+{
+    transition: all .3s;
+}
+
+@media (max-width: 1280px)
+{
+    ul
+    {
+        margin: 0;
+    }
+
+    li
+    {
+        padding: 2px;
+        margin: 2px;
+    }
+
+    nav
+    {
+        display: none;
+    }
+
+    s
+    {
+        display:none;
+    }
+    body 
+    {
+        height: 560px;
+    }
+}
+
+@media (max-width: 920px)
+{
+    .konbini
+    {
+        width: 110px;
+        height: 125px;
+    }
+
+    .testp
+    {
+        width: 300px;
+        height: 125px;
+    }
+    body 
+    {
+        height: 750px;
+    }
+}
+
+@media (max-width: 1815px)
+{
+    .pub1
+    {
+        display:none
+    }
+
+    .pub2
+    {
+        display:none
+    }
+    .pub3 
+    {
+        display:none
+    }
+}
+
+@media (max-width: 740px)
+{
+    .konbini
+    {
+        width: 55px;
+        height: 63px;
+    }
+
+    .testp
+    {
+        width: 150px;
+        height: 63px;
+    }
+    body 
+    {
+        height: 605px;
+    }
+    h1
+    {
+        font: 33px 'Circular Std Bold';
+        line-height: 30px;
+    }
+    a
+    {
+        font: 33px 'Circular Std Bold';
+        line-height: 40px;
+    }
+    .feed
+    {
+        width: 105px;
+        height: 33px;
+        align-content: bottom;
+    }
+    .acf
+    {
+        width: 95px;
+        height: 33px;
+    }
+    button
+    {
+        padding: 2px 7px;
+    }
+    p, button
+    {
+        font: 14px 'Circular Std Book';
+    }
+}
+
+@keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+  }
+
+
+.qc-cmp-persistent-link{
+    display: none!important;
+}
+
+  @keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+
+  @keyframes scale-in-ver-center {
+    0% {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      opacity: 1;
+    }
+  }

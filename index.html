@@ -1,0 +1,131 @@
+<!doctype html>
+<meta charset=utf8>
+<title>Test de pureté (version jeune™)</title>
+<meta name=viewport content="width=device-width">
+<link rel=apple-touch-icon href=favicon.png>
+<link rel="stylesheet" type="text/css" href="fonts/Nexa/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="fonts/Circular/style.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<script src="script.js"></script>
+<script src="dom.js"></script>
+<script src="konami.js"></script>
+
+<body scroll="no" style="overflow: hidden"></body>
+
+<!-- Quantcast Choice. Consent Manager Tag -->
+<script type="text/javascript" async=true>
+    var elem = document.createElement('script');
+    elem.src = 'cmp.js';
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+    (function() {
+    var gdprAppliesGlobally = true;
+    function addFrame() {
+        if (!window.frames['__cmpLocator']) {
+        if (document.body) {
+            var body = document.body,
+                iframe = document.createElement('iframe');
+            iframe.style = 'display:none';
+            iframe.name = '__cmpLocator';
+            body.appendChild(iframe);
+        } else {
+            // In the case where this stub is located in the head,
+            // this allows us to inject the iframe more quickly than
+            // relying on DOMContentLoaded or other events.
+            setTimeout(addFrame, 5);
+        }
+        }
+    }
+    addFrame();
+    function cmpMsgHandler(event) {
+        var msgIsString = typeof event.data === "string";
+        var json;
+        if(msgIsString) {
+        json = event.data.indexOf("__cmpCall") != -1 ? JSON.parse(event.data) : {};
+        } else {
+        json = event.data;
+        }
+        if (json.__cmpCall) {
+        var i = json.__cmpCall;
+        window.__cmp(i.command, i.parameter, function(retValue, success) {
+            var returnMsg = {"__cmpReturn": {
+            "returnValue": retValue,
+            "success": success,
+            "callId": i.callId
+            }};
+            event.source.postMessage(msgIsString ?
+            JSON.stringify(returnMsg) : returnMsg, '*');
+        });
+        }
+    }
+    window.__cmp = function (c) {
+        var b = arguments;
+        if (!b.length) {
+        return __cmp.a;
+        }
+        else if (b[0] === 'ping') {
+        b[2]({"gdprAppliesGlobally": gdprAppliesGlobally,
+            "cmpLoaded": false}, true);
+        } else if (c == '__cmp')
+        return false;
+        else {
+        if (typeof __cmp.a === 'undefined') {
+            __cmp.a = [];
+        }
+        __cmp.a.push([].slice.apply(b));
+        }
+    }
+    window.__cmp.gdprAppliesGlobally = gdprAppliesGlobally;
+    window.__cmp.msgHandler = cmpMsgHandler;
+    if (window.addEventListener) {
+        window.addEventListener('message', cmpMsgHandler, false);
+    }
+    else {
+        window.attachEvent('onmessage', cmpMsgHandler);
+    }
+    })();
+    window.__cmp('init', {
+    	'Language': 'fr',
+		'Initial Screen Title Text': 'Mon chien est mort hier',
+		'Initial Screen Reject Button Text': "J'n'accepte",
+		'Initial Screen Accept Button Text': "J'accepte",
+		'Initial Screen Purpose Link Text': 'je ne vous espionne pas je voulais juste dire que mon chien était mort',
+		'Purpose Screen Title Text': "Et ouais, et j'ai même un coeur artificiel",
+		'Purpose Screen Body Text': 'Et je veux le dire à toute la France',
+		'Purpose Screen Vendor Link Text': 'Voir une liste blanche',
+		'Purpose Screen Cancel Button Text': 'Annuler',
+		'Purpose Screen Save and Exit Button Text': 'Enregistrer et quitter',
+		'Vendor Screen Title Text': 'Une liste blanche',
+		'Vendor Screen Body Text': "Ma liste blanche",
+		'Vendor Screen Accept All Button Text': 'Tout Accepter',
+		'Vendor Screen Reject All Button Text': 'Nicolas Sarkozy',
+		'Vendor Screen Purposes Link Text': 'Grave nul ta liste blanche',
+		'Vendor Screen Cancel Button Text': 'Annuler',
+		'Vendor Screen Save and Exit Button Text': 'Enregistrer et quitter',
+		'Initial Screen Body Text': "Yo ben maintenant que je suis là je veux juste dire que le site n'a aucun lien avec Konbini, Feed ou l'ACF. Merci à Leffy62z, Leo_PaulYT, Redus, YanisKardashian, Fujo, Tarti et autres pour l'aide pour choisir les questions.",
+		'Initial Screen Body Text Option': 0,
+		'Publisher Purpose IDs': [1],
+		'Post Consent Page': 'https://www.youtube.com/watch?v=wE0W-1g0sIc',
+		'Display UI': 'always',
+		'Publisher Name': 'FLYGOOW PRO',
+		'Consent Scope': 'service',
+		'Publisher Purpose Legitimate Interest IDs': [1],
+    });
+</script>
+<!-- End Quantcast Choice. Consent Manager Tag -->
+    <style>
+    </style>
+
+
+<script type="text/javascript">
+    var imgCount = 3;
+    var randomCount = Math.round(Math.random() * (imgCount - 1)) + 1;
+    var images = new Array
+            images[1] = "#fff800",
+            images[2] = "#25bdfb",
+            images[3] = "#86ea88";
+    document.body.style.backgroundColor = images[randomCount]
+</script>
