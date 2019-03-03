@@ -251,7 +251,7 @@ const questions = [
   },
   {
     categorie: 'zizisexuel',
-    texte: 'Voulez-vous baiser Josiane de Scènes de Ménage ?',
+    texte: 'Voulez-vous baiser Lilianne de Scènes de Ménage ?',
     choix: {'Mdrr oh que oui': 8, 'Non': -20}
   },
   {
