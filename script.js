@@ -153,7 +153,7 @@ const questions = [
   },
   {
     categorie: 'bigard',
-    texte: "<img src=images/bigard.jpg width=100><br>Aimez-vous cette photo ?",
+    texte: "<img src=https://pbs.twimg.com/media/DiJ1NDEW0AACTa2.jpg:large width=100><br>Aimez-vous cette photo ?",
     choix: {'Oui': 1, 'Non':-2}
   },
   {
@@ -251,7 +251,7 @@ const questions = [
   },
   {
     categorie: 'zizisexuel',
-    texte: 'Voulez-vous baiser Lilianne de Scènes de Ménage ?',
+    texte: 'Voulez-vous baiser Josiane de Scènes de Ménage ?',
     choix: {'Mdrr oh que oui': 8, 'Non': -20}
   },
   {
@@ -329,6 +329,11 @@ const questions = [
     choix: {'Oui': -1, "Oui, le jeu vidéo n'attend pas !! CASQUE:ON CLAVIER:ON, je suis prêt !": 2, 'Non': 0}
   },
   {
+    categorie: 'zizisexuel',
+    texte: 'Avez-vous déjà acheté quelque chose dans un sex-shop ?',
+    choix: {'oui': -1, 'Non': 0}
+  },
+  {
     categorie: 'gamer',
     texte: 'Avez-vous un tiroir à pisse ?',
     choix: {'oui': 2, 'Non': -2}
@@ -362,7 +367,7 @@ const questions = [
   },
   {
     categorie: 'zizisexuel',
-    texte: "Est-ce que cette image vous excite ?<br><img src=images/donkey.png width=150>",
+    texte: "Est-ce que cette image vous excite ?<br><img src=https://i.imgur.com/986Wonz.png width=200>",
     choix: {'Oui': -1, 'Non': 0}
   },
   {
@@ -437,7 +442,7 @@ const questions = [
   },
   {
     categorie: 'gamer',
-    texte: 'Combien de litres de gras avez-vous sur les cheveux ?',
+    texte: 'Comment de litres de gras avez-vous sur les cheveux ?',
     choix: {'Aucun je suis propre': -1, 'Entre 0,1L et 1L': 2, 'Plus de 1L': 4}
   },
   {
@@ -452,7 +457,7 @@ const questions = [
   },
   {
     categorie: 'gamer',
-    texte: 'Combien avez-vous de Jahcoins ?<br><img src=images/jahcoin.png width=50>',
+    texte: 'Combien avez-vous de Jahcoins ?<br><img src=images/jahcoin.png width=100>',
     choix: {'+50': 8, 'Entre 49 et 30': 4, 'Entre 29 et 10':2,'Entre 10 et 1':1, "Aucun":-2}
   },
   {
@@ -464,7 +469,7 @@ const questions = [
   {
     categorie: 'chrétien',
     texte: 'Avez-vous répondu honnêtement aux questions ?',
-    choix: {'Oui seigneur': 1, "J'avoue. Je n'ai pas répondu sérieusement aux questions proposées seigneur. Mais comprenez-moi,<br>je suis dans une situation compliquée en ce moment. J'ai une famille à nourrir, <br>mais mon patron m'a viré de mon job. Je fais de mon mieux et je jongle entre cachets et dépression. Pardonnez-moi.": -2}
+    choix: {'Oui seigneur': 1, "J'avoue. Je n'ai pas répondu sérieusement aux questions proposées seigneur. Mais comprenez-moi,<br>je suis dans une situation compliquée en ce moment. J'ai une famille à nourrir, mais mon<br>patron m'a viré de mon job. Je fais de mon mieux et je jongle entre cachets et dépression. <br>Pardonnez-moi.": -2}
   }
 ];
 
@@ -636,7 +641,7 @@ function demarrage() {
                tag('s',
                tag('feed1', '<a href=https://flygoow.party><img src=images/pubfeed.png width="300" height="600" align="left" class="pub1" style="margin:0 10px 0 30px;margin-top: -295px;"></a>') +
                tag('feed2', '<a href=https://flygoow.party><img src=images/pubfeed2.png width="300" height="600" align="right" class="pub2" style="margin:0 10px 0 30px;margin-top: -295px;"></a>')+
-               tag('feed3', '<a href=https://flygoow.party><img src=images/pubfeed3.png width="730" height="90" class="pub3" style="margin: 0 225px 0 0px; margin-top: 215px;margin-left: 204px;"></a>'))+
+               tag('feed3', '<a href=https://flygoow.party><img src=images/pubfeed3.png width="730" height="90" class="pub3" style="margin: 0 225px 0 0px; margin-top: 215px;margin-left: 204px;margin-right: 204px;margin-bottom: 210px;"></a>'))+
                tag('footer',
                    tag('a',
                     'Karmen') + '. ' +
@@ -654,3 +659,5 @@ function demarrage() {
 
 // Quand la page est complètement chargée, on démarre
 window.addEventListener('load', demarrage);
+
+

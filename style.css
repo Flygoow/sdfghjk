@@ -20,6 +20,10 @@ h1
     line-height: 80px;
 }
 
+footer
+{
+    display: none;
+}
 
 h1 a
 {
@@ -56,11 +60,6 @@ li b
     text-shadow: 0 0 4px #000;
     border-radius: 7px;
 }
-
-footer
-{
-	display:none!important;
-} 
 
 footer, table
 {
@@ -182,7 +181,7 @@ a
     background: #cc4800!important;
 }
 
-.linkthesun
+.dangereux
 {
     transition:0.75s;
     background: #cc0000!important;
@@ -194,13 +193,13 @@ a
     background: #b42727!important;
 }
 
-.jdg
+.demon
 {
     transition:0.75s;
     background: #870000!important;
 }
 
-.fanta
+.jdg
 {
     transition:0.75s;
     background: #690000!important;
@@ -345,7 +344,7 @@ button, li
     }
     body 
     {
-        height: 605px;
+        height: 580px;
     }
     h1
     {
