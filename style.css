@@ -57,6 +57,11 @@ li b
     border-radius: 7px;
 }
 
+footer
+{
+	display:none!important;
+} 
+
 footer, table
 {
     text-align:center;
