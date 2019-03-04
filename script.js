@@ -153,7 +153,7 @@ const questions = [
   },
   {
     categorie: 'bigard',
-    texte: "<img src=https://pbs.twimg.com/media/DiJ1NDEW0AACTa2.jpg:large width=100><br>Aimez-vous cette photo ?",
+    texte: "<img src=images/bigard.jpg width=100><br>Aimez-vous cette photo ?",
     choix: {'Oui': 1, 'Non':-2}
   },
   {
@@ -367,7 +367,7 @@ const questions = [
   },
   {
     categorie: 'zizisexuel',
-    texte: "Est-ce que cette image vous excite ?<br><img src=https://i.imgur.com/986Wonz.png width=200>",
+    texte: "Est-ce que cette image vous excite ?<br><img src=images/donkey.png width=200>",
     choix: {'Oui': -1, 'Non': 0}
   },
   {
