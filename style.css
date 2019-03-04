@@ -225,6 +225,7 @@ body, html
 
 body
 {
+    overflow: hidden;
     animation: .50s fade;
     background-color: rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
@@ -329,6 +330,14 @@ button, li
     }
 }
 
+@media (max-height: 1280px)
+{
+    body{
+    overflow: visible;
+    height: 680px;
+    }
+}
+
 @media (max-width: 740px)
 {
     .konbini
@@ -344,7 +353,8 @@ button, li
     }
     body 
     {
-        height: 580px;
+        overflow: visible;
+        height: 690px;
     }
     h1
     {
